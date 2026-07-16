@@ -14,7 +14,7 @@ Erstelle mir eine Liste für die Tage vom nächsten Montag bis Ende September 20
 Ausgabeformat der Liste ist YAML.
 Jedes Item soll so aussehen (ersetze den Inhalt in geschweiften Klammern entsprechend), achte besonders darauf, dass du alle "contentReference" auch mit dem tatsächlichen Werten ersetzt, damit das YAML auch unabhängig nutzbar ist:
 
-- title: {Band}: {Albumname} ({Erscheinungsjahr})
+- title: "{Band}: {Albumname} ({Erscheinungsjahr})"
   date: {Der jeweilige Tag um 21:00 Uhr}
   duration: 60
   description: |
